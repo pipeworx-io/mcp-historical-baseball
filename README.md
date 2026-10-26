@@ -5,7 +5,7 @@ records, per-game box-score summaries, and season leaderboards, back to
 1871. Fleet #2976 — the live `mlb-stats` pack only covers the current MLB
 Stats API; this pack is the historical record underneath it.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1786+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1881+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
@@ -48,7 +48,7 @@ list.
 
 ## Data sources
 
-- **Retrosheet** (retrosheet.org/gamelogs) — one row per game, 1871-2025.
+- **Retrosheet**, game logs — one row per game, 1871-2025.
   Free with a required attribution notice, reproduced verbatim in every
   `baseball_game_log` response:
 
@@ -56,7 +56,7 @@ list.
   > copyrighted by Retrosheet. Interested parties may contact Retrosheet at
   > "www.retrosheet.org".
 
-- **SABR Lahman Baseball Database** (sabr.org/lahman-database) — season
+- **SABR, Lahman Baseball Database** — season
   batting/pitching/team tables and player bios, 1871-2025 (now including
   Negro Leagues statistics licensed from Seamheads.com), maintained by SABR
   from Sean Lahman's original donation. Licensed **CC BY-SA 3.0 Unported**
@@ -82,7 +82,7 @@ calling SABR live per request — and CC BY-SA 3.0's ShareAlike term applies to
 that kind of build, not to calling an upstream live. Concretely, that means:
 
 - **Attribution (BY)**: every response from a Lahman-backed tool carries
-  `source` (SABR/Sean Lahman), `source_url` (sabr.org/lahman-database) and
+  `source` (SABR/Sean Lahman), `source_url` (sabr.org) and
   the full license text in `license`, and this README states it again.
 - **ShareAlike**: because we hold and redistribute a derivative of these
   specific four tables (via the tool responses above), that derivative is
@@ -186,7 +186,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1786+ data sources. The
+Both URLs reach the same gateway and the same 1881+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 

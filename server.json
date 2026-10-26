@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/historical-baseball",
   "title": "Historical Baseball",
   "description": "historical-baseball -- MLB history from Retrosheet game logs and the SABR Lahman Baseball Database…",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/historical-baseball",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-historical-baseball",

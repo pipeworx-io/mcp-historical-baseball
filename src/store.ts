@@ -44,14 +44,14 @@ export function requireDb(d1: unknown): D1Like {
 
 export const SOURCES = {
   retrosheet: {
-    source: 'Retrosheet, game logs (retrosheet.org/gamelogs)',
-    source_url: 'https://www.retrosheet.org/gamelogs/',
+    source: 'Retrosheet, game logs',
+    source_url: 'https://www.retrosheet.org/',
     license:
       'The information used here was obtained free of charge from and is copyrighted by Retrosheet. Interested parties may contact Retrosheet at "www.retrosheet.org".',
   },
   lahman: {
-    source: 'SABR Lahman Baseball Database (sabr.org/lahman-database), via Sean Lahman',
-    source_url: 'https://sabr.org/lahman-database/',
+    source: 'SABR, Lahman Baseball Database, via Sean Lahman',
+    source_url: 'https://sabr.org/',
     license:
       'Copyright 1996-2025 SABR, via generous donation from Sean Lahman. Licensed Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/). These tables are built from SABR\'s bulk files rather than a live call, so ShareAlike applies: the people/batting_season/pitching_season/teams_season data served here is itself CC BY-SA 3.0 -- see this pack\'s README "Licensing and ShareAlike compliance".',
   },

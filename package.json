@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-historical-baseball",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "historical-baseball -- MLB history from Retrosheet game logs and the SABR Lahman Baseball Database (fleet #2976).",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-b165fa1c5a6fc8313d44b58a3d2f4eea942c987540b83d501b04df923ff435ee",
-    "sourceCommit": "25e83bad9a91f94df238b7910cd6c46a8143d26d"
+    "sourceHash": "v1-926f1c9e07e2e914c5b4afd88f5979bc08f4761e10c6d0cf4f77e9566e7d65f7",
+    "sourceCommit": "24e32b525f9c0b2fd7d94b519b08abb108cc11cd"
   }
 }
