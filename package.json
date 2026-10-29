@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-historical-baseball",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "historical-baseball -- MLB history from Retrosheet game logs and the SABR Lahman Baseball Database (fleet #2976).",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-historical-baseball": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "historical-baseball"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-historical-baseball.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/historical-baseball",
   "pipeworx": {
-    "sourceHash": "v1-926f1c9e07e2e914c5b4afd88f5979bc08f4761e10c6d0cf4f77e9566e7d65f7",
-    "sourceCommit": "24e32b525f9c0b2fd7d94b519b08abb108cc11cd"
+    "mode": "gateway",
+    "slug": "historical-baseball",
+    "gatewaySlug": "historical-baseball",
+    "sourceHash": "v1-ef4bb842eb77484e411a65e7649ec53291a0c549589bc6985d5c0e9757d19a2b",
+    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
   }
 }
